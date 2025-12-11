@@ -41,7 +41,7 @@
                 </configuration>
             </plugin>
             
-            <!-- Maven Exec Plugin for running the application -->
+    
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
@@ -51,7 +51,7 @@
                 </configuration>
             </plugin>
             
-            <!-- Maven Shade Plugin for creating executable JAR -->
+        
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
